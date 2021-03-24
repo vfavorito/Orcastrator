@@ -1,66 +1,38 @@
 # Orcastrator
 
-Want a one-stop-shop for creating and building your team for a project? Manage your team with Orcastrator.
-
-#### TABLE OF CONTENTS
-
-- [Code Clip](#Code)
-- [Credits](#Credits)
-- [Badges](#Credits)
-- [Contributors](#Contributors)
-- [Future Development](#FutureDevelopment)
-- [License](#License)
-
-## Code
-
-Dashboard page:
-
-![image](https://user-images.githubusercontent.com/70075341/111876820-84a8e080-896e-11eb-9ba5-1847e5ef2d0a.JPG)
-
-Add User modal:
-
-![image](https://user-images.githubusercontent.com/70075341/111876822-85417700-896e-11eb-9c52-ed2ea78738e1.JPG)
-
-## Installation
-
-```
-$npm i
-```
-
-### Heroku Link
-
-[Orcastrator](https://orcastrator.herokuapp.com/)
-
-## Credits
-
-1. Deployed app is in Heroku
-2. OAuth is used to authenticate
-3. MongoDB is utilized to store our user information
-4. Dashboard and footer image credit to [Amy Paschke](https://github.com/AmyPaschke)
-
-## Badges
-
-![JavaScript](https://img.shields.io/badge/JavaScript-90.8%25-yellow)<br/>
-![CSS](https://img.shields.io/badge/CSS-4.5%25-purple) <br/>
-![HTML](https://img.shields.io/badge/HTML-4.7%25-red) <br/>
-
-## Contributors
-
-[Vincent Favorito](https://github.com/vfavorito) <br/>
-[Ricky Cohen ](https://github.com/rickycohen88) <br/>
-[Caleb Walker](https://github.com/calebkw91) <br/>
-[Amy Paschke](https://github.com/AmyPaschke) <br/>
-[Daron Schmit](https://github.com/DaronSchmit) <br/>
-
-## Future Development
-
-- Add the ability for admins to create members without tying them to a created user<br/>
-- Creating additional design elements to the pages<br/>
-- Allow multiple users to access the same page at the same time with live updates<br/>
-
-## License
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Overview:
+This app allows a user to create new pods(groups) and send invites to fellow orcas(users) to join your created pod! While in a pod you are in an active chat room with anyone else in the same pod!  This was primarily accomplished using React, Express, node.js, and Socket.io.  
+
+### Table of Contents:
+1. [How it works](#How-it-works)
+2. [Example](#Example)
+3. [Installation](#Installation)
+4. [Contributing](#Contributing)
+5. [Questions](#Questions)
+6. [License](#License)
+
+### How it works!
+Once you enter the app you will need to either sign in with github or google or create a local account and sign in with those credentials.  Then Create a pod by clicking the create a pod button and fill out the info.  Lastly add orcas to your pod by first selecting the pod then clicking the add an orca button.  Enter the username of the orca you would like to invite and hit invite.  On the recieving end of an invite you will need to accept the invite request before being placed in the pod.  Once you have other fellow orcas in your pod feel free to enter the pod Chat room and send messages to each other.
+
+Sign In <br/> ![landingPage](readmeAssets/signIn.png) <br/><br/>Enter Dashboard <br/> ![dashboardPage](readmeAssets/dashboard.PNG) <br/><br/>Create Pod <br/> ![createPod](readmeAssets/createPod.png) <br/><br/>Add Orcas <br/> ![addingOrcas](readmeAssets/addOrca.png) <br/><br/>Chat Among Orcas <br/> ![liveChat](readmeAssets/chat.png) <br/><br/>
+
+### Example
+Here is a link to the Orcastrator:  [https://orcastrator.herokuapp.com/](https://orcastrator.herokuapp.com/)
+
+### Installation
+Clone the repo npm i in the root folder as well as the client folder
+
+### Contributing
+If you would like to contribute to the development of this app the guidelines for doing so can be found here: [Contribution Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.txt)
+
+### Questions?
+Visit my Github profile here: [vfavorito](https://github.com/vfavorito)<br/>
+If you have any questions you can reach out to me at vince.favorito@gmail.com
+
+### License
+This App is covered under the MIT License
 <br/>
 © 2021 Vincent Favorito <br/>
 © 2021 Ricky Cohen <br/>
